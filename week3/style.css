@@ -19,6 +19,7 @@
 .logo span{
     font-family: "League Spartan", sans-serif;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .navbar a{
@@ -26,6 +27,93 @@
     color: #fff;
 }
 
-.navigation{
-    /* margin: 0 70px; */
+.navigation a{
+    font-family: "Roboto", sans-serif;
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.navigation i{
+    font-size: 20px;
+}
+
+.navbar span{
+    margin-left: 17px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background: url(./assets/images/hero.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.hero-section h1{
+    width: 530px;
+    margin-left: 78px;
+    font-family: "lora", serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.adventure{
+    width: 78px;
+    padding: 5px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    margin-left: 76px;
+    margin-bottom: 19px;
+    background: rgba(128, 128, 128, 0.367);
+    border-radius: 8px;
+}
+
+.circle{
+    margin-top: 85px;
+    display: flex;
+    margin-left: 77px;
+}
+
+
+.circ{
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.circle .middle{
+    background-color: rgba(128, 128, 128, 0.644);
+}
+.circle .last{
+    background-color: rgba(128, 128, 128, 0.644);
+}
+
+.date{
+    margin-left: 67px;
+    margin-top: 11px;
+    display: flex;
+    /* align-items: center; */
+
+}
+
+.date span{
+    width: 30px;
+    border-top:1px solid #fff ;
+    margin: 0 11px;
+   margin-top: 10px;
+}
+.progress{
+    font-family: "lora", serif;
+    width: 420px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 100;
 }
